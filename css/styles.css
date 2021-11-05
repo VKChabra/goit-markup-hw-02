@@ -1,0 +1,15 @@
+:root {
+  --accent-color: #2196f3;
+  --main-text-color: #757575;
+  --title-color: #212121;
+  --info-color: #ffffff;
+  --sec-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+}
+
+/* font-family: 'Raleway' sans-serif; */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
