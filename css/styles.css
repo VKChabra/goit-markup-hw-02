@@ -8,6 +8,7 @@
   --sec-bg-color: #2f303a;
   --third-bg-color: #f5f4fa;
   --logo-color: #000000;
+  --logo-sec-color: #ffffff;
   --hero-color: #ffffff;
   --button-hover-color: #ffffff;
   --footer-address-color: #ffffff;
@@ -186,8 +187,15 @@ body {
   color: var(--footer-address-color);
 }
 
+.footer-logo {
+  color: var(--logo-sec-color);
+}
+
 /* portfolio */
-.portfolio-nav-button {
+.projects-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -196,7 +204,7 @@ body {
   color: var(--portfolio-button-color);
 }
 
-.portfolio-nav-button:hover {
+.projects-button:hover {
   background-color: var(--accent-color);
   color: var(--button-hover-color);
 }
